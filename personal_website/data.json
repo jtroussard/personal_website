@@ -1,0 +1,28 @@
+{
+    "intro_title": "Hello!",
+    "intro_text": "Clinically diagnosed <strong>Programming Addict</strong>, in love with building all sorts of projects with a variety of technologies. When I am not <strong>developing, testing, or documenting</strong>, you'll probably find me walking my dog, Clio, tinkering in the garage, or in front of a video game.",
+    "intro_text2": "This page is to document and display my progress as a software, website, video game developer. There will be some information on my educational and professional background, as well as a project portfolio gallery and some other fun things that interest me. Feel free to reach out with comments or collaboration.",    
+    "education": [
+        { 
+            "name": "University of Mary Washington", 
+            "location_state": "VA", 
+            "location_city": "Fredericksburg",
+            "filename_logo": "logo-umw.jpg",
+            "degrees": [
+                {"degree_type": "Bachelor of Science", "degree_focus": "Computer Science", "degree_gpa": 3.33} 
+            ]
+        },
+        {
+            "name": "Northern Virginia Community College", 
+            "location_state": "VA", 
+            "location_city": "Annandale",
+            "filename_logo": "logo-nova.jpg",
+            "degrees": [
+                {"degree_type": "Associates of Science", "degree_focus": "Social Science", "degree_gpa": 3.38},
+                {"degree_type": "Certificate", "degree_focus": "Buisness Information Technology", "degree_gpa": 3.66} 
+            ]
+        }
+    ],
+    "education_text": "Education is important! While a college degree isn't always necessary to get started in software development, I found my time at University indispensable. The variety of courses allowed me to get a taste of all the different disciplines within Computer Science. Also, the quality and experience of my instructors at these smaller institutions provided a lot of valuable feedback on my work. The experience overall gave me the confidence to dive into the projects and work I felt most passionate about."
+
+}

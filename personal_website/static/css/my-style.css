@@ -1,0 +1,67 @@
+body {
+    margin: 25px;
+}
+
+div.pic-polaroid {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    transform: rotate(5deg);
+    padding-bottom: 75px;
+}
+
+div.pic-container {
+    text-align: center;
+    padding: 12px 12px;
+}
+
+div.carousel-item {
+    width: 100%;
+}
+
+div.slide-title {
+    font-size: 2.0rem;
+    font-weight: normal;
+}
+
+img.logo {
+    width: 175px;
+    height: 175px;
+    object-fit: fill;
+}
+
+span.location {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.carousel-dark .carousel-control-prev-icon,
+.carousel-dark .carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+.carousel-dark .carousel-caption {
+  color: #000;
+}
+
+.carousel {
+    width: 100%;
+    width: -webkit-fill-available;
+}
+
+.carousel-card {
+    margin-top: 40px;
+    text-align: center;
+    text-align: -webkit-center;
+    width: 50%;
+}
+
+div.carousel-item {
+    text-align: -webkit-center;
+}
+
+h5.card-title {
+    margin-top: 15px;
+}
