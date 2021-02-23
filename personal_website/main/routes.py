@@ -12,7 +12,4 @@ with open(data_filename) as file:
 @main.route("/home")
 def home():
 
-    # We have to process some of the data strings
-    intro_text = data['intro_text']
-    data['intro_text'] = Markup(intro_text)
     return render_template("home.html", data=data)

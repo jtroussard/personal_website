@@ -27,7 +27,7 @@
                 <div class="tm-intro-text-container">
                     <h2 class="tm-text-primary mb-4 tm-section-title">{{ data.intro_title }}</h2>
                     <p class="mb-4 tm-intro-text">
-                        {{ data.intro_text }}
+                        {{ data.intro_text | safe }}
                     </p>
                     <p class="mb-5 tm-intro-text">
                         {{ data.intro_text2 }}</p>
