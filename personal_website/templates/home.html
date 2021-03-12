@@ -29,37 +29,26 @@
                     <p class="mb-4 tm-intro-text">
                         {{ data.intro_text | safe }}
                     </p>
-                    <p class="mb-5 tm-intro-text">
+                    <p class="mb-4 tm-intro-text">
                         {{ data.intro_text2 }}</p>
                     <div class="tm-next">
-                        <a href="#education" class="tm-intro-text tm-btn-primary">Read More</a>
+                    
+                    <p class="mb-4 tm-intro-text">
+                       {{ data.intro_text3 }}</p>
+                    <div class="tm-next">
+
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center mb-5 ml-4">
+                        <a href="mailto:{{ data.personal.email }}" class="tm-contact-item-link ">
+                            <i class="fas fa-3x fa-envelope mr-4 "></i>
+                            <span class="mb-0 ">{{ data.personal.email }}</span>
+                        </a>
+                    </div>
+
+
+
+                        <a href="#education" class="tm-intro-text tm-btn-primary ml-2">Next</a>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row tm-section-pad-top">
-            <div class="col-lg-4">
-                <i class="fas fa-4x fa-bus text-center tm-icon"></i>
-                <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
-                <p>
-                    Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus. Duis imperdiet lacus justo.
-                </p>
-            </div>
-
-            <div class="col-lg-4 mt-5 mt-lg-0">
-                <i class="fas fa-4x fa-bicycle text-center tm-icon"></i>
-                <h4 class="text-center tm-text-primary mb-4">Nunc sed metus vel nisi</h4>
-                <p>
-                    Praesent ut finibus leo. Duis et tempus ipsum, id pretium nunc. Vivamus imperdiet sem quis orci pharetra convallis. Nunc a tempus nisi, sed fringilla purus. In hac habitasse platea.
-                </p>
-            </div>
-            <div class="col-lg-4 mt-5 mt-lg-0">
-                <i class="fas fa-4x fa-city text-center tm-icon"></i>
-                <h4 class="text-center tm-text-primary mb-4">Fusce sed nisi sagittis</h4>
-                <p>
-                    Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus.
-                </p>
             </div>
         </div>
 </section>
@@ -118,17 +107,12 @@
             <div class="tm-next">
                 <a href="#experience" class="tm-intro-text tm-btn-primary center-btn">Next</a>
             </div>
-
-
-
-
-
 </section>
 
 <section id="experience" class="block-content l-block-spacing tm-section-pad-top">
     <div class="l-contained">
         <header class="heading-group">
-            <h2 class="tm-text-primary tm-section-title mb-4">Experience</h2>
+            <h2 class="tm-text-primary tm-section-title mb-4">Professional Experience</h2>
         </header>
         <ul class="timeline-list timeline-reduce-lpad">
         {% for post in data.experience %}
@@ -150,14 +134,17 @@
         {% endfor %}
         </ul>
     </div>
+    <div class="tm-next">
+        <a href="#projects" class="tm-intro-text tm-btn-primary center-btn">Next</a>
+    </div>
 </section>  
 
 
-<section id="work " class="tm-section-pad-top ">
+<section id="projects" class="tm-section-pad-top ">
     <div class="container tm-container-gallery ">
         <div class="row ">
             <div class="text-center col-12 ">
-                <h2 class="tm-text-primary tm-section-title mb-4 ">Our Work</h2>
+                <h2 class="tm-text-primary tm-section-title mb-4 ">Personal Projects</h2>
                 <p class="mx-auto tm-work-description ">
                     "Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. "
                 </p>
@@ -238,19 +225,61 @@
     </div>
 </section>
 
-<!-- Contact -->
-<section id="contact " class="tm-section-pad-top tm-parallax-2 ">
+<!-- Dev Community -->
+<section id="community" class="tm-section-pad-top tm-parallax-2 ">
     <div class="container tm-container-contact ">
         <div class="row ">
             <div class="col-12 ">
-                <h2 class="mb-4 tm-section-title ">Contact Us</h2>
+                <h2 class="text-center tm-text-primary tm-section-title mb-4">Developer Community/Social Media</h2>
                 <div class="mb-5 tm-underline ">
                     <div class="tm-underline-inner "></div>
                 </div>
                 <p class="mb-5 ">
                     Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui, non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque at at velit.
                 </p>
+
+                <div class="row tm-section-pad-top">
+                    <div class="col-lg-4">
+                        <i class="fas fa-4x fa-bus text-center tm-icon"></i>
+                        <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
+                        <p>
+                            Sed ultrices sit amet mi eu malesuada. Cras ultricies gravida nisi, ac pellentesque nunc tincidunt quis. Aenean at ornare lacus. Duis imperdiet lacus justo.
+                        </p>
+                    </div>
+        
+                    <div class="col-lg-4 mt-5 mt-lg-0">
+                        <i class="fas fa-4x fa-bicycle text-center tm-icon"></i>
+                        <h4 class="text-center tm-text-primary mb-4">Nunc sed metus vel nisi</h4>
+                        <p>
+                            Praesent ut finibus leo. Duis et tempus ipsum, id pretium nunc. Vivamus imperdiet sem quis orci pharetra convallis. Nunc a tempus nisi, sed fringilla purus. In hac habitasse platea.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 mt-5 mt-lg-0">
+                        <i class="fas fa-4x fa-city text-center tm-icon"></i>
+                        <h4 class="text-center tm-text-primary mb-4">Fusce sed nisi sagittis</h4>
+                        <p>
+                            Donec vestibulum libero nisl. Curabitur ac orci ac lorem blandit volutpat. Sed ac sodales nibh, ut porttitor elit. Sed id dui mi. Vestibulum ante ipsum primis in faucibus.
+                        </p>
+                    </div>
+                </div>
             </div>
+            </div>
+            </div>
+            </section>
+
+
+            <!-- Contact -->
+<section id="community" class="tm-section-pad-top tm-parallax-2 ">
+    <div class="container tm-container-contact ">
+        <div class="row ">
+            <div class="col-12 ">
+                <h2 class="text-center tm-text-primary tm-section-title mb-4">Contact</h2>
+                <div class="mb-5 tm-underline ">
+                    <div class="tm-underline-inner "></div>
+                </div>
+                <p class="mb-5 ">
+                    Nullam tincidunt, lacus a suscipit luctus, elit turpis tincidunt dui, non tempus sem turpis vitae lorem. Maecenas eget odio in sapien ultrices viverra vitae vel leo. Curabitur at elit eu risus pharetra pellentesque at at velit.
+                </p>
 
             <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item ">
                 <a href="tel:0100200340 " class="tm-contact-item-link ">

@@ -1,7 +1,15 @@
 {
+    "personal": {
+        "first_name": "Jacques",
+        "middle_name": "Jakov",
+        "last_name": "Troussard",
+        "title": "Software Developer",
+        "email": "developerslifefor.me@gmail.com"
+    },
     "intro_title": "Hello!",
     "intro_text": "Clinically diagnosed <strong>Programming Addict!</strong> In love with building all sorts of projects with a variety of technologies. When I am not <strong>developing, testing, or documenting</strong>, you'll probably find me walking my dog, Clio, tinkering in the garage, or in front of a video game.",
-    "intro_text2": "This page is to document and display my progress as a software, website, video game developer. There will be some information on my educational and professional background, as well as a project portfolio gallery and some other fun things that interest me. Feel free to reach out with comments or collaboration.",    
+    "intro_text2": "This page is to document and display my progress as a software, website, video game developer. There will be some information on my educational and professional background, as well as a project portfolio gallery and some other fun things that interest me. Feel free to reach out with comments or collaboration.",
+    "intro_text3": "Feel free to reach out with comments or collaboration.",    
     "education": [
         { 
             "name": "University of Mary Washington", 
