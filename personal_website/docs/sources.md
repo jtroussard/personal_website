@@ -1,3 +1,8 @@
+# Backlog
+* Source experience and education information directly from linkedin
+* Find a way to validate data.json
+* emp logo size picker
+
 # Sources
 
 ## My Stuff
@@ -7,6 +12,7 @@
 ## Direct files
 * Paralax template, css, javascript: 
   * https://templatemo.com/live/templatemo_525_the_town
+
 
 ## Help/Patterns
 * File Access: 
@@ -20,6 +26,7 @@
   * https://www.w3schools.com/cssref/css3_pr_transform.asp
   * https://stackoverflow.com/questions/19481334/bootstrap-carousel-width-and-height/19481452
   * https://www.w3schools.com/cssref/pr_font_font-style.asp
+  * https://stackoverflow.com/questions/13391566/twitter-bootstrap-carousel-different-height-images-cause-bouncing-arrows
 * Python/Flask/Jinja General
   * https://stackoverflow.com/questions/3206344/passing-html-to-template-using-flask-jinja2
   * https://jinja.palletsprojects.com/en/2.11.x/templates/

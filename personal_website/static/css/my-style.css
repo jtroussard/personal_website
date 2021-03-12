@@ -2,6 +2,10 @@ body {
     margin: 25px;
 }
 
+h2 {
+    text-shadow: 2px 2px 2px #333;
+}
+
 div.pic-polaroid {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -62,6 +66,15 @@ div.carousel-item {
     text-align: -webkit-center;
 }
 
+div.carousel-item.active {
+    height: 379px;
+}
+
 h5.card-title {
     margin-top: 15px;
+}
+
+img.emp-logo {
+    width: 100px;
+    height: 100px;
 }

@@ -1,6 +1,6 @@
 {
     "intro_title": "Hello!",
-    "intro_text": "Clinically diagnosed <strong>Programming Addict</strong>, in love with building all sorts of projects with a variety of technologies. When I am not <strong>developing, testing, or documenting</strong>, you'll probably find me walking my dog, Clio, tinkering in the garage, or in front of a video game.",
+    "intro_text": "Clinically diagnosed <strong>Programming Addict!</strong> In love with building all sorts of projects with a variety of technologies. When I am not <strong>developing, testing, or documenting</strong>, you'll probably find me walking my dog, Clio, tinkering in the garage, or in front of a video game.",
     "intro_text2": "This page is to document and display my progress as a software, website, video game developer. There will be some information on my educational and professional background, as well as a project portfolio gallery and some other fun things that interest me. Feel free to reach out with comments or collaboration.",    
     "education": [
         { 
@@ -23,6 +23,53 @@
             ]
         }
     ],
-    "education_text": "Education is important! While a college degree isn't always necessary to get started in software development, I found my time at University indispensable. The variety of courses allowed me to get a taste of all the different disciplines within Computer Science. Also, the quality and experience of my instructors at these smaller institutions provided a lot of valuable feedback on my work. The experience overall gave me the confidence to dive into the projects and work I felt most passionate about."
+    "education_text": "Education is important! While not required to follow the developers path, I found my time at university indispensable and extremely enjoyable. Flip through these cards and see where I've attended.",
+    "experience": [
+        { 
+            "employer_name": "McKesson", 
+            "employer_state": "PA", 
+            "employer_city": "Moon Township",
+            "employer_logo": "logo-mckesson.png",
+            "experience_description": "Java, Swing, Angular development on the MPS application: EnterpriseRx (Hosted Pharmacy Management System)",
+            "experience_start_date": "Dec 2019",
+            "experience_end_date": "Present"
+        },
+        { 
+            "employer_name": "Dollar Bank FSB", 
+            "employer_state": "PA", 
+            "employer_city": "Pittsburgh",
+            "employer_logo": "logo-dollarbank.jpg",
+            "experience_description": "Developed applications which contributed to the solution of business problems or needs of the bank. Tech stack mainly consisted of Mainframe (COBOL, JCL, CICS, IDMS). Participated in various stages of the SDLC: Conducting research, systems analysis, obtaining approvals, presenting requirements, specifications, and development plans to committees, programming, testing, and documenation.",
+            "experience_start_date": "Feb 2018",
+            "experience_end_date": "Nov 2019"
+        },
+        { 
+            "employer_name": "Audi Arlington", 
+            "employer_state": "VA", 
+            "employer_city": "Arlington",
+            "employer_logo": "logo-audi.jpg",
+            "experience_description": "Reviewed up to 100 warranty claims per day, which required the parsing of technical descriptions and supporting test data from technicians. Worked with several departments to ensure that responsible parties would deliver appropriate documentation for each stage of the repair process, improving turn around time on paid claims.",
+            "experience_start_date": "Mar 2014",
+            "experience_end_date": "Jan 2015"
+        },
+        { 
+            "employer_name": "H.A.T.S. Facilities Management Services", 
+            "employer_state": "United Arab Emirates", 
+            "employer_city": "Dubai",
+            "employer_logo": "logo-hats.png",
+            "experience_description": "Supervised maintenance and restoration projects for hospitality, residential, and industrial properties. Performed site surveys of primary building systems. Primary clients included Ritz-Carlton Dubai Marina and Le Meridian Dubai Hotel. Worked on several projects with teams from diverse cultural, language, and religious backgrounds. (European, South Asian, Middle Eastern)",
+            "experience_start_date": "Oct 2010",
+            "experience_end_date": "Oct 2013"
+        },
+        { 
+            "employer_name": "Mercedes-Benz of Honolulu", 
+            "employer_state": "Hi", 
+            "employer_city": "Honolulu",
+            "employer_logo": "logo-mercedes.jpg",
+            "experience_description": "Maintained warranty standards across three different islands. Processed claims valued over $20,000. Helped process necessary internal paperwork to maintain an in-house loaner fleet of over 70 vehicles.",
+            "experience_start_date": "Aug 2009",
+            "experience_end_date": "Jun 2010"
+        }
+    ]
 
 }
