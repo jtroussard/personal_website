@@ -117,19 +117,18 @@ em {
 	}
 
 .timeline-list::after {
-		content: "";
-    clear:both;
-    
-		position: absolute;
-		bottom: 0px;
-		left: -1em;
-		width: 20px;
-		height: 20px;
-		border-radius: 50%;
-		background: none repeat scroll 0% 0% #DDD;
-		border: 5px solid #DDD;
-		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-    animation:revealScaleUp 0.75s 2.82s ease both 1;
+    content: "";
+    clear: both;
+    position: absolute;
+    bottom: -10px;
+    left: -13px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: none repeat scroll 0% 0% #3496d8;
+    border: 5px solid #a29c9c;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    animation: revealScaleUp 0.75s 2.82s ease both 1;
 }
 
 .t-block-teal {

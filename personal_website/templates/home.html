@@ -32,7 +32,7 @@
                     <p class="mb-5 tm-intro-text">
                         {{ data.intro_text2 }}</p>
                     <div class="tm-next">
-                        <a href="#work" class="tm-intro-text tm-btn-primary">Read More</a>
+                        <a href="#education" class="tm-intro-text tm-btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                         <div class="carousel-card">
                         <img class="d-block img-fluid logo" src="{{ url_for('static', filename='img/' + school.filename_logo | safe) }}" alt="{{ school.name }}">
                         <h5 class="card-title">{{ school.name }}</h5>
-                        <h5 style="font-style: italic;">{{ school.location_city }}, {{ school.location_state }}</h5>
+                        <h5 class="city-state">{{ school.location_city }}, {{ school.location_state }}</h5>
                         {% for degree in school.degrees %}
                             <h5>{{ degree.degree_type }} | {{ degree.degree_focus }} | {{ degree.degree_gpa }}</h5>
                         {% endfor %}
@@ -115,6 +115,14 @@
               </div>
         </div>
     </div>
+            <div class="tm-next">
+                <a href="#experience" class="tm-intro-text tm-btn-primary center-btn">Next</a>
+            </div>
+
+
+
+
+
 </section>
 
 <section id="experience" class="block-content l-block-spacing tm-section-pad-top">
@@ -131,7 +139,7 @@
 
                     <img class="d-block img-fluid logo" src="{{ url_for('static', filename='img/' + post.employer_logo | safe) }}" alt="{{ post.name }}">
 
-                    <h5>{{ post.employer_city }}, {{ post.employer_state }}</h5>
+                    <h5 class="city-state">{{ post.employer_city }}, {{ post.employer_state }}</h5>
 
                     <em>{{ post.experience_start_date }} - {{ post.experience_end_date }}</em>
 

@@ -28,6 +28,13 @@ div.slide-title {
     font-weight: normal;
 }
 
+a.center-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 115px;
+}
+
 img.logo {
     width: 175px;
     height: 175px;
@@ -72,6 +79,10 @@ div.carousel-item.active {
 
 h5.card-title {
     margin-top: 15px;
+}
+
+h5.city-state {
+    font-style: italic;
 }
 
 img.emp-logo {

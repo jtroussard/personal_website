@@ -47,7 +47,7 @@
             "employer_name": "Audi Arlington", 
             "employer_state": "VA", 
             "employer_city": "Arlington",
-            "employer_logo": "logo-audi.jpg",
+            "employer_logo": "logo-audi.png",
             "experience_description": "Reviewed up to 100 warranty claims per day, which required the parsing of technical descriptions and supporting test data from technicians. Worked with several departments to ensure that responsible parties would deliver appropriate documentation for each stage of the repair process, improving turn around time on paid claims.",
             "experience_start_date": "Mar 2014",
             "experience_end_date": "Jan 2015"
@@ -65,7 +65,7 @@
             "employer_name": "Mercedes-Benz of Honolulu", 
             "employer_state": "Hi", 
             "employer_city": "Honolulu",
-            "employer_logo": "logo-mercedes.jpg",
+            "employer_logo": "logo-mercedesbenz.png",
             "experience_description": "Maintained warranty standards across three different islands. Processed claims valued over $20,000. Helped process necessary internal paperwork to maintain an in-house loaner fleet of over 70 vehicles.",
             "experience_start_date": "Aug 2009",
             "experience_end_date": "Jun 2010"
